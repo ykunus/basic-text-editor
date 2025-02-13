@@ -1,0 +1,17 @@
+echo "
+# Ignore system & personal files
+.DS_Store
+.config/
+.cache/
+.Trash/
+Documents/
+Downloads/
+Movies/
+Music/
+Library/
+Virtual Machines.localized/
+.vscode/
+.ipynb_checkpoints/
+*.log
+*.zip
+" > .gitignore
